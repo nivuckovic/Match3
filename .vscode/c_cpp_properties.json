@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Match3Editor Editor Win64 Development (Match3)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Match3.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

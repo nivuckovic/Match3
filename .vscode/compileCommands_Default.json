@@ -1,0 +1,137 @@
+[
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\AppController.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\AppController.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\EventBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\EventBase.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\EventQueue.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\EventQueue.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\EventSubscription.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\EventSubscription.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\GameEvent.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\GameEvent.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\GameEvents.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\GameEvents.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\GameEventSubscription.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\GameEventSubscription.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\InGameHUD.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\InGameHUD.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\MainMenuWidget.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\MainMenuWidget.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\Match3.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\Match3.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\Match3.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\Match3GameModeBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\Match3GameModeBase.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\Socket.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\Socket.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\TestActor.cpp",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\nivuc\\\\Documents\\\\Match3\\\\Match3\\\\Source\\\\Match3\\\\TestActor.h",
+		"command": "cl.exe @\"C:\\Users\\nivuc\\Documents\\Match3\\Match3\\.vscode\\compileCommands_Default\\Match3.187.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]

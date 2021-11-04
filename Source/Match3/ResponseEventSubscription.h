@@ -5,6 +5,11 @@
 #include "CoreMinimal.h"
 #include "ResponseType.h"
 
+#include <memory>
+#include <functional>
+
+#include "JSONObjectNode.h"
+
 class MATCH3_API ResponseEventSubscription 
 {
 public:

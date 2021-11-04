@@ -139,8 +139,30 @@ void AGrid::OnSwapTilesFinished(bool isMoveCombo)
 {
 	if (isMoveCombo)
 	{
-		OnCombo();
+		MarkTilesForDestruction();
+		EnlargeComboTiles(_destroyData);
 	}
+}
+
+void AGrid::MarkTilesForDestruction()
+{
+	_destroyData = TArray<ATile*>();
+
+	for (ATile* tile : _tiles)
+	{
+		int x = tile->GetBoardPosition().X;
+		int y = tile->GetBoardPosition().Y;
+
+		if (_destroyTableInfo[x][y])
+		{
+			_destroyData.Add(tile);
+		}
+	}
+}
+
+void AGrid::OnEnlargeTilesFinished()
+{
+	OnCombo();
 }
 
 void AGrid::OnCombo()
@@ -158,24 +180,14 @@ void AGrid::OnCombo()
 
 void AGrid::BreakCombos()
 {
-	std::vector<FVector> comboTilesBoardPositions;
-
-	for (int i = 0; i < 10; ++i)
+	for (ATile* tile : _destroyData)
 	{
-		for (int j = 0; j < 10; ++j)
-		{
-			if (_destroyTableInfo[i][j])
-			{
-				comboTilesBoardPositions.push_back(FVector(i, j, 0));
-			}
-		}
-	}
+		int x = tile->GetBoardPosition().X;
+		int y = tile->GetBoardPosition().Y;
 
-	for (FVector& boardPosition : comboTilesBoardPositions)
-	{
-		std::vector<ATile*>::iterator it = std::find_if(_tiles.begin(), _tiles.end(), [boardPosition](ATile* tile)
+		std::vector<ATile*>::iterator it = std::find_if(_tiles.begin(), _tiles.end(), [x, y](ATile* tile)
 		{
-			return (boardPosition.X == tile->GetBoardPosition().X) && (boardPosition.Y == tile->GetBoardPosition().Y);
+			return (x == tile->GetBoardPosition().X) && (y == tile->GetBoardPosition().Y);
 		});
 
 		if (it != _tiles.end())
@@ -307,7 +319,8 @@ void AGrid::OnDropdownFinished()
 	bool isCombo = _gameController->Match->CalculateCombo(_destroyTableInfo);
 	if (isCombo)
 	{
-		OnCombo();
+		MarkTilesForDestruction();
+		EnlargeComboTiles(_destroyData);
 	}
 	else if(_gameController->Match->IsYourTurn())
 	{

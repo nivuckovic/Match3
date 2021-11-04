@@ -54,11 +54,17 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void DropdownTiles(const TArray<FTileDropdownData>& tiles);
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void EnlargeComboTiles(const TArray<ATile*>& tiles);
+
 	UFUNCTION(BlueprintCallable)
 	void OnSwapTilesFinished(bool isMoveCombo);
 
 	UFUNCTION(BlueprintCallable)
 	void OnDropdownFinished();
+
+	UFUNCTION(BlueprintCallable)
+	void OnEnlargeTilesFinished();
 
 public:
 	UPROPERTY(EditDefaultsOnly)
@@ -73,6 +79,7 @@ protected:
 
 private:
 	void MoveTiles(ATile* firstTile, ATile* secondTile);
+	void MarkTilesForDestruction();
 	void BreakCombos();
 	void StartDropdown();
 	void OnCombo();
@@ -94,6 +101,8 @@ private:
 	std::array<std::array<int, 10>, 10> _dropdownTable;
 	std::array<std::array<bool, 10>, 10> _destroyTableInfo;
 	std::array<int, 10> _dropdownInfoArray;
+
+	TArray<ATile*> _destroyData;
 	TArray<FTileDropdownData> _dropdownData;
 
 	ResponseEventSubscription::Ptr _opponentTileMoveSubscription;
